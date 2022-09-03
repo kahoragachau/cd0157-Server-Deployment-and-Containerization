@@ -5,6 +5,9 @@ APP = Flask(__name__)
 @APP.route('/')
 def hello_world():
     return 'Hello, World from Flask!\n'
+@APP.route('/black-panter')
+def get_panther():
+    return 'Hey ther you got a black panther\n Yay!!'
 
 
 
